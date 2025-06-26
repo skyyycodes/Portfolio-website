@@ -52,7 +52,7 @@ A modern, animated 3D developer portfolio built with React, Three.js, TailwindCS
 ├── public/
 │   ├── assets/             # Images, textures, models
 │   ├── models/             # 3D Astronaut model
-│   └── vite.svg
+│    
 ├── src/
 │   ├── components/         # Reusable components
 │   ├── constants/          # Reusable datas
