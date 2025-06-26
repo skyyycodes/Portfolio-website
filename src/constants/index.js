@@ -100,22 +100,22 @@ export const myProjects = [
         path: "/assets/logos/tailwindcss.svg",
       },
       {
-        id: 4,
+        id: 6,
         name: "Redux",
         path: "/assets/logos/tailwindcss.svg",
       },
       {
-        id: 5,
+        id: 7,
         name: "RTK Query Toolkit",
         path: "/assets/logos/tailwindcss.svg",
       },
       {
-        id: 6,
+        id: 8,
         name: "Mongoose",
         path: "/assets/logos/tailwindcss.svg",
       },
       {
-        id: 7,
+        id: 9,
         name: "JSON Web Tokens",
         path: "/assets/logos/tailwindcss.svg",
       },
@@ -252,17 +252,17 @@ export const myProjects = [
         path: "/assets/logos/tailwindcss.svg",
       },
       {
-        id: 4,
+        id: 5,
         name: "Shadcn UI",
         path: "/assets/logos/tailwindcss.svg",
       },
       {
-        id: 4,
+        id: 6,
         name: "Clerk Auth",
         path: "/assets/logos/tailwindcss.svg",
       },
       {
-        id: 4,
+        id: 7,
         name: "NeonDB",
         path: "/assets/logos/tailwindcss.svg",
       },
