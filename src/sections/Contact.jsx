@@ -2,6 +2,8 @@ import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import Alert from "../components/Alert";
 import { Particles } from "../components/Particles";
+//service_njd3rml
+//template_fokszgg
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -30,16 +32,16 @@ const Contact = () => {
     try {
       console.log("From submitted:", formData);
       await emailjs.send(
-        "service_79b0nyj",
-        "template_17us8im",
+        "service_njd3rml",
+        "template_fokszgg",
         {
           from_name: formData.name,
-          to_name: "Ali",
+          to_name: "Akash",
           from_email: formData.email,
-          to_email: "AliSanatiDev@gmail.com",
+          to_email: "akashchakraborty694@gmail.com",
           message: formData.message,
         },
-        "pn-Bw_mS1_QQdofuV"
+        "MdFdCBqkkEFCsf6cv"
       );
       setIsLoading(false);
       setFormData({ name: "", email: "", message: "" });
@@ -51,7 +53,7 @@ const Contact = () => {
     }
   };
   return (
-    <section className="relative flex items-center c-space section-spacing">
+    <section className="relative flex items-center c-space section-spacing" id="Contact"> 
       <Particles
         className="absolute inset-0 -z-50"
         quantity={100}

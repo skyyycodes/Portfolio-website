@@ -13,17 +13,17 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "C#",
+        name: "Next.js",
         path: "/assets/logos/csharp.svg",
       },
       {
         id: 2,
-        name: ".Net",
+        name: "Firebase",
         path: "/assets/logos/dotnet.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
+        name: "Vapi",
         path: "/assets/logos/efcore.png",
       },
       {
@@ -35,22 +35,19 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "AlgoViz: Visualize your algorithm",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "A website to Visualize Searching and sorting algorithms.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "AlgoViz (hosted at vizyouralgo.vercel.app) is an interactive web app that transforms abstract algorithms into engaging visual stories. It offers intuitive, real-time animations and performance analysis for six popular sorting algorithms—Bubble, Merge, Quick, Selection, Insertion, and Heap Sort—and two fundamental search techniques, Linear and Binary Search. With sleek visuals powered by technologies like Next.js, Tailwind CSS, Framer Motion, and Anime.js, the platform helps students, developers, and educators explore algorithmic logic and complexity (time and space) in a hands-on, intuitive way—making learning both precise and fun.",
     ],
-    href: "",
+    href: "https://github.com/skyyycodes/algorithm-visualizer",
     logo: "",
     image: "/assets/projects/auth-system.jpg",
     tags: [
       {
         id: 1,
-        name: "Auth0",
+        name: "Next.js",
         path: "/assets/logos/auth0.svg",
       },
       {
@@ -60,11 +57,6 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
@@ -72,32 +64,29 @@ export const myProjects = [
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "BookHive: E-commerce platform for books",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "A modern, interactive website for buying books.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "BookHive is a full-featured online bookstore built with the MERN stack (MongoDB, Express.js, React, Node.js), offering a seamless experience for users to browse, add to cart, and place orders. It includes a secure admin dashboard to manage books and inventory with features like upload, edit, and delete. The application uses Redux for efficient state management, JWT for secure authentication, and a modern, responsive UI built with Tailwind CSS, delivering both functionality and performance in a real-world e-commerce setup.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/bookhive.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
+        name: "React",
         path: "/assets/logos/blazor.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
+        name: "Node.js",
         path: "/assets/logos/dotnetcore.svg",
       },
       {
         id: 3,
-        name: "SQLite",
+        name: "Express.js",
         path: "/assets/logos/sqlite.svg",
       },
       {
@@ -105,115 +94,176 @@ export const myProjects = [
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
+      {
+        id: 5,
+        name: "MongoDB",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 4,
+        name: "Redux",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 5,
+        name: "RTK Query Toolkit",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 6,
+        name: "Mongoose",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 7,
+        name: "JSON Web Tokens",
+        path: "/assets/logos/tailwindcss.svg",
+      },
     ],
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "Schedulrr: A modern scheduling application",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "Schedulrr is a modern full-stack scheduling application built with React, Next.js 15, and TypeScript, designed to streamline event creation and appointment booking.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "It features a responsive user interface styled with Tailwind CSS, and secure authentication handled through Clerk. Core functionalities include dynamic event type creation, availability management, and seamless scheduling logic powered by Next.js server actions, delivering a clean, intuitive experience for both users and organizers.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/Schedulrr.png",
     tags: [
       {
         id: 1,
-        name: "C++",
+        name: "React",
         path: "/assets/logos/cplusplus.svg",
       },
       {
         id: 2,
-        name: "C#",
+        name: "Next.js",
         path: "/assets/logos/csharp.svg",
       },
       {
         id: 3,
-        name: "Git",
+        name: "Tailwind CSS",
         path: "/assets/logos/git.svg",
       },
       {
         id: 4,
-        name: "Microsoft",
+        name: "Neon DB",
+        path: "/assets/logos/microsoft.svg",
+      },
+      {
+        id: 5,
+        name: "Prisma",
+        path: "/assets/logos/microsoft.svg",
+      },
+      {
+        id: 6,
+        name: "Clerk Authentication",
+        path: "/assets/logos/microsoft.svg",
+      },
+      {
+        id: 7,
+        name: "Shadcn UI",
         path: "/assets/logos/microsoft.svg",
       },
     ],
   },
   {
     id: 5,
-    title: "WordPress Custom Theme",
+    title: "DoctorLink: A comprehensive doctor appointment platform",
     description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
+      "",
     subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
+      "DoctorLink is a comprehensive full-stack doctor appointment platform built using Next.js 15, React 19, NeonDB, and Tailwind CSS, featuring real-time video consultations powered by Vonage. It integrates Clerk for seamless user authentication and Shadcn UI for a modern, accessible interface. The app supports dynamic user roles (patients, doctors, and admins), onboarding flows, subscription plans, doctor availability management, and appointment booking with secure video call functionality. Backed by Prisma ORM, it ensures robust data handling, while clean modular routing and reusable hooks optimize the development flow—making it an impressive project.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/assets/projects/doctor_proj.png",
     tags: [
       {
         id: 1,
-        name: "WordPress",
+        name: "React 19",
         path: "/assets/logos/wordpress.svg",
       },
       {
         id: 2,
-        name: "HTML5",
+        name: "Next.js 15",
         path: "/assets/logos/html5.svg",
       },
       {
         id: 3,
-        name: "CSS3",
+        name: "Tailwind CSS",
         path: "/assets/logos/css3.svg",
       },
       {
         id: 4,
-        name: "Vite.js",
+        name: "NeonDB",
+        path: "/assets/logos/vitejs.svg",
+      },
+      {
+        id: 5,
+        name: "Prisma",
+        path: "/assets/logos/vitejs.svg",
+      },
+      {
+        id: 6,
+        name: "Clerk Authentication",
+        path: "/assets/logos/vitejs.svg",
+      },
+      {
+        id: 7,
+        name: "Shadcn UI",
         path: "/assets/logos/vitejs.svg",
       },
     ],
   },
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "Splitr: A modern AI-powered expense splitting application",
     description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+      "Splitr is a modern full-stack AI-powered expense splitting application.",
     subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
+      "Splitr is a modern full-stack AI-powered expense splitting application built with React 19, Next.js 15, Convex, and Tailwind CSS, designed to make tracking shared expenses with friends seamless and intelligent. It features real-time database syncing via Convex, secure user authentication with Clerk, and a clean, responsive UI powered by Shadcn UI. With built-in automation using Inngest and robust data handling through Prisma, the app intelligently manages group expenses, bill splits, and settlement tracking. This project not only demonstrates advanced full-stack skills but also integrates AI workflows.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/elearning.jpg",
+    image: "/assets/projects/split_proj.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
+        name: "React 19",
         path: "/assets/logos/blazor.svg",
       },
       {
         id: 2,
-        name: "Azure",
+        name: "Next.js 15",
         path: "/assets/logos/azure.svg",
       },
       {
         id: 3,
-        name: "Stripe",
+        name: "Tailwind CSS",
         path: "/assets/logos/stripe.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
+        name: "Prisma",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 4,
+        name: "Shadcn UI",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 4,
+        name: "Clerk Auth",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 4,
+        name: "NeonDB",
         path: "/assets/logos/tailwindcss.svg",
       },
     ],
@@ -223,50 +273,55 @@ export const myProjects = [
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "",
+    href: "https://wa.link/aox0h8",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/skyycodes/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "https://www.instagram.com/aakash.py/",
     icon: "/assets/socials/instagram.svg",
+  },
+  {
+    name: "Github",
+    href: "https://github.com/skyyycodes",
+    icon: "/assets/socials/github-mark-white.png",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Software Engineering Virtual Internship",
+    job: "Electronic Arts",
+    date: "Apr 2025",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Proposed and documented a new gameplay feature for EA Sports College Football, presenting it through a formal Feature Proposal to key stakeholders.",
+      "Designed a comprehensive class diagram and implemented C++ header files with clear object-oriented class definitions.",
+      "Identified and resolved a critical bug, optimizing the codebase by integrating a more efficient data structure.",
+      "Collaborated in a version-controlled development environment using Git, ensuring clean commit history and effective peer code reviews.",
     ],
+    
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Salesforce Developer Virtual Internship",
+    job: "Persistent",
+    date: "July-August 2024",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Completed an 8-week virtual internship (July–August 2024) focused on core Salesforce development using Trailhead modules.",
+      "Gained hands-on experience in Salesforce Fundamentals, Org Setup, Relationship & Process Automation, Security Models, Apex Testing & Debugging, and Lightning Web Components (LWC) & APIs.",
+      "Earned Super Badges including Apex Specialist, Process Automation Specialist, and the comprehensive Developer Super Set.",
+      "Developed and deployed custom Salesforce applications demonstrating end-to-end understanding of declarative and programmatic solutions.",
     ],
+    
   },
   {
     title: "Freelance Developer",
     job: "Self-Employed",
-    date: "2025-Present",
+    date: "2022-Present",
     contents: [
       "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
       "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
